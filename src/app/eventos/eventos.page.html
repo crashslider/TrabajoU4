@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <img src="assets/img/escudo.png" alt="Left Image" class="header-image">
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Demo</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <img src="assets/img/lines.png" alt="Right Image" class="header-image">
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-datetime minuteValues="0,15,30,45" dayValues="5,20,24,30"></ion-datetime>
+
+
+  <div class="bottom-image-container">
+    <a routerLink="/home">
+      <img src="assets/img/home.png" alt="Home" class="bottom-image">
+    </a>
+  </div>
+
+</ion-content>

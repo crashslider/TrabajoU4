@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <img src="assets/img/escudo.png" alt="Left Image" class="header-image">
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Demo</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <img src="assets/img/lines.png" alt="Right Image" class="header-image">
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-input
+      label="Titulo"
+      labelPlacement="stacked"
+      [clearInput]="true"
+      placeholder="Ingrese un titulo"
+    ></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-textarea
+      label="Descripcion"
+      labelPlacement="stacked"
+      placeholder="Ingrese una descripcion"
+      autoGrow="true"
+      class="large-textarea"
+    ></ion-textarea>
+  </ion-item>
+
+  <div class="button-container">
+    <ion-button>
+      <ion-icon slot="start" name="camera"></ion-icon>
+      Fotografia
+    </ion-button>
+    <ion-button>
+      <ion-icon slot="start" name="navigate"></ion-icon>
+      Ubicación
+    </ion-button>
+  </div>
+  <div class="button-container">
+    <ion-button color="danger" >
+      <ion-icon slot="start" name="send"></ion-icon>
+      Enviar
+    </ion-button>
+  </div>
+
+  <div class="bottom-image-container">
+    <a routerLink="/home">
+      <img src="assets/img/home.png" alt="Home" class="bottom-image">
+    </a>
+  </div>
+</ion-content>

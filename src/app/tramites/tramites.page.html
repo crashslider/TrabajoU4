@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <img src="assets/img/escudo.png" alt="Left Image" class="header-image">
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Demo</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <img src="assets/img/lines.png" alt="Right Image" class="header-image">
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">tramites</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Botones verticales -->
+  <div class="button-container">
+    <a routerLink="/pagina1" class="button-link">
+      <span class="line small">Oficina de Partes</span>
+      <span class="line large">Ingresar Solicitud</span>
+      <span class="line small">Ingreso de cualquier tipo de solicitud</span>
+    </a>
+    <a routerLink="/pagina1" class="button-link">
+      <span class="line small">Obras Municipales</span>
+      <span class="line large">Ingresar Solicitud Permiso</span>
+      <span class="line small">Ingreso solicitudes de permiso</span>
+    </a>
+    <a routerLink="/pagina1" class="button-link">
+      <span class="line small">Alcaldia</span>
+      <span class="line large">Ingresar Solicitud Audiencia</span>
+      <span class="line small">Solicitud audiencia con Alcaldesa</span>
+    </a>
+
+  </div>
+
+  <div class="bottom-image-container">
+    <a routerLink="/home">
+      <img src="assets/img/home.png" alt="Home" class="bottom-image">
+    </a>
+  </div>
+</ion-content>

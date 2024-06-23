@@ -1,0 +1,35 @@
+.header-image {
+  width: 30px; 
+  height: 30px; 
+  object-fit: contain; 
+}
+
+ion-content {
+    .circular-button {
+      position: fixed;
+      bottom: 20px;
+      left: calc(50% - 50px); /* Ajusta el valor según el tamaño del botón */
+      width: 100px; /* Ajusta el tamaño del botón */
+      height: 100px; /* Ajusta el tamaño del botón */
+      background-color: transparent !important; /* Establece el fondo como transparente */
+      border: none !important; /* Elimina cualquier borde */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0; /* Elimina el espacio interior del botón */
+    }
+  }
+  
+.bottom-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.bottom-image {
+  width: 60px; /* Ajusta el tamaño según sea necesario */
+  height: 60px; /* Ajusta el tamaño según sea necesario */
+}

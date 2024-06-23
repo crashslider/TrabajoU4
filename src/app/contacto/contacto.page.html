@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <img src="assets/img/escudo.png" alt="Left Image" class="header-image">
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Demo</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <img src="assets/img/lines.png" alt="Right Image" class="header-image">
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="button-container">
+    <a routerLink="/pagina1" class="button-link">
+      <img src="assets/img/chat.png" alt="Imagen 1">
+      <div class="text-container">
+        <span class="line small">Iniciar</span>
+        <span class="line large">Chat</span>
+      </div>
+    </a>
+    <a routerLink="/pagina1" class="button-link">
+      <img src="assets/img/phone.png" alt="Imagen 2">
+      <div class="text-container">
+        <span class="line small">Contactos</span>
+        <span class="line large">Telefonicos</span>
+      </div>
+    </a>
+    <a routerLink="/pagina1" class="button-link">
+      <img src="assets/img/mensaje.png" alt="Imagen 3">
+      <div class="text-container">
+        <span class="line small">Escribenos</span>
+        <span class="line large">Mensaje</span>
+      </div>
+    </a>
+  </div>
+  <div class="bottom-image-container">
+    <a routerLink="/home">
+      <img src="assets/img/home.png" alt="Home" class="bottom-image">
+    </a>
+  </div> 
+</ion-content>

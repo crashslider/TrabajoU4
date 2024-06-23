@@ -1,0 +1,32 @@
+.login-logo {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .login-logo img {
+    max-width: 300px;
+  }
+  
+  ion-button {
+    --background: #DF1529;  // Cambia el color de fondo del botón
+    --background-activated: #B81222; // Color cuando el botón es presionado
+    --background-focused: #B81222; // Color cuando el botón es enfocado
+    --background-hover: #B81222; // Color cuando el botón es pasado por encima
+  }
+
+  .password-item {
+    margin-bottom: 30px; /* Ajusta el valor según el espacio que necesites */
+  }
+  
+  .links {
+    margin-top: 50px; /* Espacio entre el botón y los enlaces */
+    text-align: center; /* Centrar los enlaces */
+  }
+  
+  .link {
+    display: block; /* Asegura que cada enlace ocupe una línea completa */
+    color: #DF1529; /* Usa el color primario de Ionic */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    margin-top: 10px; /* Espacio entre los enlaces */
+  }
+  

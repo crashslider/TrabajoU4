@@ -1,0 +1,63 @@
+.header-image {
+  width: 30px;
+  height: 30px; 
+  object-fit: contain;
+}
+
+ion-content {
+    .circular-button {
+      position: fixed;
+      bottom: 20px;
+      left: calc(50% - 50px);
+      width: 100px;
+      height: 100px;
+      background-color: transparent !important;
+      border: none !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+    }
+  }
+ 
+  .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-link {
+    display: block;
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #000;
+    text-align: left;
+  }
+  
+  .line {
+    display: block;
+  }
+  
+  .small {
+    font-size: 12px;
+  }
+  
+  .large {
+    font-size: 18px;
+  }
+  
+  .bottom-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+  }
+  
+  .bottom-image {
+    width: 60px;
+    height: 60px;
+  }
