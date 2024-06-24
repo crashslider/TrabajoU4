@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'emergencia',
     loadChildren: () => import('./emergencia/emergencia.module').then( m => m.EmergenciaPageModule)
   },
+  {
+    path: 'map',
+    loadChildren: () => import('./map/map.module').then( m => m.MapPageModule)
+  },
   // otras rutas
 ];
 
