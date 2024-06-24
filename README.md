@@ -1,4 +1,4 @@
-# Trabajo U3 - Taller de Dispositivos Moviles
+# Trabajo U4 Parte A - Taller de Dispositivos Moviles
 ## Descripción del Proyecto
 
 Este proyecto es una aplicación móvil desarrollada con Ionic y Angular. La aplicación incluye varias páginas como Login, Home, Tramites, Eventos, Contacto y Emergencia, cada una con su funcionalidad específica. El objetivo principal es proporcionar una interfaz de usuario amigable y funcional para realizar diferentes tareas.
@@ -13,7 +13,7 @@ Este proyecto es una aplicación móvil desarrollada con Ionic y Angular. La apl
 
 1. Clona el repositorio:
 ```
-git clone https://github.com/crashslider/TrabajoU3.git
+git clone https://github.com/crashslider/TrabajoU4.git
 ```
 2. Navega al directorio del proyecto:
 ```
